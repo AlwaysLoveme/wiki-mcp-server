@@ -1,6 +1,6 @@
 {
-  "name": "wiki-mcp-server",
-  "version": "1.0.0",
+  "name": "@zhuxian/wiki-mcp-server",
+  "version": "0.0.1",
   "description": "MCP server for reading wiki document content",
   "type": "module",
   "bin": {
@@ -21,6 +21,9 @@
     "model-context-protocol"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.26.0",
     "zod": "^3.24.0"
