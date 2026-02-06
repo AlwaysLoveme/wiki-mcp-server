@@ -1,4 +1,4 @@
-# wiki-mcp-server
+# @zhuxian/wiki-mcp-server
 
 [English](./README.md) | 中文
 
@@ -23,13 +23,13 @@
 添加到当前项目：
 
 ```bash
-claude mcp add wiki-mcp -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=your_token -- npx wiki-mcp-server
+claude mcp add wiki-mcp -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=your_token -- npx @zhuxian/wiki-mcp-server
 ```
 
 添加为全局（所有项目可用）：
 
 ```bash
-claude mcp add wiki-mcp -s user -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=your_token -- npx wiki-mcp-server
+claude mcp add wiki-mcp -s user -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=your_token -- npx @zhuxian/wiki-mcp-server
 ```
 
 ### Cursor
@@ -41,7 +41,7 @@ claude mcp add wiki-mcp -s user -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=y
   "mcpServers": {
     "wiki-mcp": {
       "command": "npx",
-      "args": ["wiki-mcp-server"],
+      "args": ["@zhuxian/wiki-mcp-server"],
       "env": {
         "WIKI_DOMAIN": "www.xxxx.com.wiki",
         "WIKI_TOKEN": "your_token"
@@ -61,7 +61,7 @@ claude mcp add wiki-mcp -s user -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=y
     "wiki-mcp": {
       "type": "stdio",
       "command": "npx",
-      "args": ["wiki-mcp-server"],
+      "args": ["@zhuxian/wiki-mcp-server"],
       "env": {
         "WIKI_DOMAIN": "www.xxxx.com.wiki",
         "WIKI_TOKEN": "your_token"
@@ -80,7 +80,7 @@ claude mcp add wiki-mcp -s user -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=y
   "mcpServers": {
     "wiki-mcp": {
       "command": "npx",
-      "args": ["wiki-mcp-server"],
+      "args": ["@zhuxian/wiki-mcp-server"],
       "env": {
         "WIKI_DOMAIN": "www.xxxx.com.wiki",
         "WIKI_TOKEN": "your_token"
@@ -99,7 +99,7 @@ claude mcp add wiki-mcp -s user -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=y
   "mcpServers": {
     "wiki-mcp": {
       "command": "npx",
-      "args": ["wiki-mcp-server"],
+      "args": ["@zhuxian/wiki-mcp-server"],
       "env": {
         "WIKI_DOMAIN": "www.xxxx.com.wiki",
         "WIKI_TOKEN": "your_token"
@@ -118,7 +118,7 @@ claude mcp add wiki-mcp -s user -e WIKI_DOMAIN=www.xxxx.com.wiki -e WIKI_TOKEN=y
   "mcpServers": {
     "wiki-mcp": {
       "command": "npx",
-      "args": ["wiki-mcp-server"],
+      "args": ["@zhuxian/wiki-mcp-server"],
       "env": {
         "WIKI_DOMAIN": "www.xxxx.com.wiki",
         "WIKI_TOKEN": "your_token"
